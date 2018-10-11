@@ -1,0 +1,39 @@
+input{
+    padding: 10px 20px;
+    margin: 8px 0;
+    width:25%;
+    border: none;
+}
+span{
+    height: 75%;
+    margin-top:16%; 
+    border: none;
+    background-color: rgb(51, 139, 221);
+    color: white;
+    font-size:24px;
+}
+select{
+    width:20%;
+    background-color: rgb(51, 139, 221);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+option{
+    background-color:white;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+
+option:hover{
+    background-color: rgb(243, 63, 63) !important;
+}
+
+thead{
+    color:  rgb(35, 92, 139);
+    font-weight: bold;
+}

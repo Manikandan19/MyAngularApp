@@ -1,0 +1,72 @@
+input{
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[formControlName="desc"]{
+height: 200px;
+padding: 0px;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 25px;
+}
+button[type="reset"] {
+    background-color:rgb(238, 36, 36);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 25px;
+}
+
+textarea{
+    resize: none;
+    width: 30%;
+}
+
+.btn-sm{
+    width:60%; 
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+textarea{
+    width: 70%;
+    resize: none;
+}
+.input-group-append
+{
+    height: 80%;
+    margin-top: 2.4%;
+}
+.input-group-append >button
+{
+    background-color: rgb(51, 139, 221);
+    color: white;
+}

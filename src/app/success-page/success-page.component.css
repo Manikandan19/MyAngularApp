@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+
+.success{
+    padding: 15%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

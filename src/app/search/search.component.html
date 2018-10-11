@@ -1,0 +1,12 @@
+<div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text"><i class="fa fa-search"></i></span>
+    </div>
+
+    <input type="text" (appSearch)="getData($event)" placeholder="search....">
+    <select [(ngModel)]="value" (change)='getField()'>
+        <option value="name">By ProjectName</option>
+        <option value="code">By ProjectCode</option>
+        <option value="manager">By ProjectManager</option>
+    </select>
+</div>
